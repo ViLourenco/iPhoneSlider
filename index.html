@@ -1,0 +1,26 @@
+<html>
+<head>
+	<script type='text/javascript' src='js/jquery/jquery.js'></script>
+<script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
+
+<script type='text/javascript'></script>
+<script type='text/javascript' src='js/jquery/jquery.flexslider.js'></script>
+<link rel='stylesheet' id='style-theme-css'  href='css/style.css' type='text/css' media='all' />
+
+<script>
+jQuery(window).load(function () {
+    // Wait till all images have loaded before unwrapping
+    setTimeout(function () {
+        jQuery('.flex-slider-container, #nivo-slider, .carousel-wrap').removeClass('loading');
+    }, 400);
+});
+</script>
+
+</head>
+<body>
+<div class="iphone-slider-container smartphone-slider"><img src="http://portfoliotheme.org/appdev/wp-content/themes/appdev/images/sliders/iphone-slider-stage.png" alt="iphone Slider" class="alignnone" /><script type="text/javascript">
+jQuery(document).ready(function($) {jQuery('.flex-slider-container .flexslider'). flexslider({animation: "fade",controlsContainer: "flex-slider-container",slideshowSpeed: 5000,animationSpeed: 600,namespace: "flex-",pauseOnAction:false,pauseOnHover: false,controlNav: false,directionNav: true,prevText: "Previous<span></span>",nextText: "Next<span></span>",smoothHeight: false,animationLoop: true,easing: "swing"})});
+</script>
+<div class="flex-slider-container loading"><div class="flexslider"><ul class="slides"><li><div class="img-wrap"><img title="Lorem ipsum dolor sit amet" alt="App Slide 1" src="http://portfoliotheme.org/appdev/wp-content/uploads/2013/07/iphone-slide1.jpg"></div></li><li><div class="img-wrap"><img title="Lorem ipsum dolor sit amet" alt="App Slide 1" src="http://portfoliotheme.org/appdev/wp-content/uploads/2013/07/iphone-slide2.jpg"></div></li><li><div class="img-wrap"><img title="Lorem ipsum dolor sit amet" alt="App Slide 1" src="http://portfoliotheme.org/appdev/wp-content/uploads/2013/07/iphone-slide3.jpg"></div></li></ul></div><!-- flexslider --></div><!-- flex-slider-container --></div>
+</body>
+</html>
